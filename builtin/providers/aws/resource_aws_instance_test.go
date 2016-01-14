@@ -459,6 +459,10 @@ func TestAccAWSInstance_associatePublicIPAndPrivateIP(t *testing.T) {
 	})
 }
 
+func TestAccNewTest(t *testing.T) {
+	// some tests
+}
+
 // Guard against regression with KeyPairs
 // https://github.com/hashicorp/terraform/issues/2302
 func TestAccAWSInstance_keyPairCheck(t *testing.T) {
