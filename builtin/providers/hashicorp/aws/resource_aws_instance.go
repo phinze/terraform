@@ -35,6 +35,12 @@ func resourceAwsInstance() *schema.Resource {
 				ForceNew: true,
 			},
 
+			"new_field": &schema.Schema{
+				Type:     schema.TypeString,
+				Required: true,
+				ForceNew: true,
+			},
+
 			"associate_public_ip_address": &schema.Schema{
 				Type:     schema.TypeBool,
 				ForceNew: true,
